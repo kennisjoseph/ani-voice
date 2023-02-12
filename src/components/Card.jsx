@@ -1,13 +1,16 @@
 import React from 'react'
+import luffy from '/images/luffy.jpg'
 
-const Card = ({name}) => {
+const Card = (props) => {
+  
   return (
     <div>
-        <div className='sm:h-52 sm:w-44 md:h-52 md:w-44 lg:h-80 lg:w-64 bg-slate-900 rounded-lg border-2'>
-            {name}
+        <div className='h-56 w-56 mx-auto mt-10'>
+          <img className='transition ease-in-out duration-200 object-cover rounded-xl hover:blur-sm cursor-pointer' src={props.imgsrc}></img>
+          <img className='' src={props.sound} />
         </div>
     </div>
   )
-}
+  }
 
 export default Card
