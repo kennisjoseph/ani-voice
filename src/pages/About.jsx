@@ -1,15 +1,13 @@
 import React from 'react'
-import HeroSection from '../components/HeroSection'
-// import Hover from '../components/Hover'
 import Navbar from '../components/Navbar'
 
-const Home = () => {
+const About = () => {
   return (
     <div className='lg:h-screen md:h-screen bg-gradient-to-r from-cyan-500 to-blue-500 pt-7'>
       <Navbar />
-      <HeroSection />
+      <h1 className='text-white text-center font-asap text-6xl pt-7'>ABOUT ME</h1>
     </div>
   )
 }
 
-export default Home
+export default About
