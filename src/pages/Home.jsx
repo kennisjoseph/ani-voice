@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 
 const Home = () => {
   return (
-    <div className='lg:h-screen md:h-screen bg-gradient-to-r from-cyan-500 to-blue-500 pt-7'>
+    <div className='h-screen bg-gradient-to-r from-cyan-500 to-blue-500 pt-7'>
       <Navbar />
       <HeroSection />
     </div>

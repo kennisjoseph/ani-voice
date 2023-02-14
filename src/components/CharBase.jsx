@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import Card from './Card'
-import './Hero.css'
+
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
             <Card imgsrc="/images/dofy.webp" sound="/images/voice.png" soundx="/voices/dofy.mp3"/>
         </div>
         <div className='flex justify-center mt-6'>
-            <Button />
+            <Button title="All Characters" loc="/about"/>
         </div>
     </>
   )

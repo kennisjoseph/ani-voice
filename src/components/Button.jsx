@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Button.css'
+import { Navigate } from 'react-router-dom'
 
-const Button = () => {
+const Button = (props) => {
+
+  const[navigate,setNavigate] = useState(false);
+  if(navigate){
+    return <Navigate to={props.loc} />
+  }
   return (
-    <div>
-      <button className='btn'>All Characters</button>
-    </div>
+    <button className='button' onClick={()=>{setNavigate(true)}}> <span>{props.title}</span>
+    </button>
   )
 }
 
