@@ -17,7 +17,7 @@ const Hero = () => {
             <Card imgsrc="/images/dofy.webp" sound="/images/voice.png" soundx="/voices/dofy.mp3"/>
         </div>
         <div className='flex justify-center mt-6'>
-            <Button title="All Characters" loc="/about"/>
+          <p className='font-asap text-3xl text-center py-7 text-white'>More character will be available soon....</p>
         </div>
     </>
   )

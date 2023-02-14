@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'asap': 'Asap Condensed',
-        'archivo': 'Archivo'
+        'archivo': 'Archivo',
+        'nanum': 'Nanum Pen Script'
       }
     },
   },
